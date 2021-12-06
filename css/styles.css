@@ -11414,9 +11414,8 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
-  max-width: 100%;
-  height: auto;
+  background-size: 100%;
+
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11437,6 +11436,7 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
+    
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
